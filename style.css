@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: arial;
+}
+
+nav{
+    width: 150px;
+    height: 100vh;
+    padding: 100px 20px;
+    background-color: rgb(214, 214, 197);
+    position: fixed;
+    right: -190px;
+    top: 0;
+    transition: right 0.3s;
+}
+
+nav.show{
+    right: 0px;
+}
+
+.navItem{
+    margin: 20px;
+}
+
+.hamburger {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.bun{
+    height: 4px;
+    width: 30px;
+    border-radius: 2px;
+    background-color: #000000;
+    margin-bottom: 3px;
+}
