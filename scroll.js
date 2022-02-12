@@ -1,7 +1,7 @@
 let songs = document.querySelectorAll('.song');
 
 document.addEventListener('scroll', checkSongs)
-document.addEventListener('DOMcontentLoaded', checkSongs)
+document.addEventListener('DOMContentLoaded', checkSongs)
 
 function checkSongs(){
     songs.forEach(function(song){
